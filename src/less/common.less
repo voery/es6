@@ -1,0 +1,103 @@
+.content{
+    padding-left: 20px;
+    p{
+        line-height: 30px;
+        padding-right: 20px;
+    }
+    .sideSonBar{
+        padding: 15px 20px;
+        margin-right: 20px;
+        background: #bdc3c7;
+        border-radius: 8px;
+        a{
+            color:#4682BE;
+            font-weight: bold;
+            line-height: 30px;
+            text-decoration: none;
+        }
+    }
+    .mainContent{
+        
+        margin-right:20px;
+        h3{
+            line-height: 40px;
+        }
+        >ul>li{
+            padding-top:20px;
+            margin-top:30px;
+            border-top: 1px solid #999;
+            .mainBox{
+                p{
+                    padding-bottom: 10px;
+                    code{
+                        color: #c7254e;
+                    }
+                    a{
+                        text-decoration: none;
+                        color:#4682be;
+                    }
+                }
+                .list{
+                    padding: 15px 0 15px 40px;
+                    li{
+                        border-top:none !important;
+                        padding-top: 0 !important;
+                        margin-top: 0 !important;
+                        line-height: 30px;
+                        &::before{
+                            content:"-";
+                            position: relative;
+                            left: -5px;
+                        }
+                        code{
+                            color: #c7254e;
+                        }
+                    }
+                }
+                .baseList{
+                    li{
+                        line-height: 30px;
+                        margin-top: 20px;
+                        border-top:1px dashed #999;
+                        padding-top:20px;
+                        h4{
+                            line-height: 50px;
+                        }
+                    }
+                }
+                .languageBash,.language-javascript{
+                    background: #111;
+                    border-radius: 5px;
+                    padding:10px 20px;
+                    font-size: 14px;
+                    line-height: 30px;
+                    .language-javascript{
+                        padding:0;
+                    }
+                    code{
+                        color:#a6e22e;
+                    }
+                    .operator{
+                        color:#f92672;
+                    }
+                    .token.comment, .token.prolog, .token.doctype, .token.cdata{
+                        color:#75715e;
+                    }
+                    .token.punctuation,.token.punctuation{
+                        color:#f8f8f2;
+                    }
+                    .token.boolean, .token.number{
+                        color:#ae81ff;
+                    }
+                    .token.keyword{
+                        color:#66d9ef;
+                        font-size: 14px;
+                    }
+                    .token.string{
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+}
